@@ -1,0 +1,59 @@
+CS3010 Web Programming
+Fall 2018
+
+Project 3: Building off Project 1 and Creating PHP Form Validation
+
+HTML Form Validation is removed.
+Implemented server side PHP form validation for user input.
+Validation rules for registration using PHP:
+Username
+-Required
+-Max 50 characters, Min 6 characters
+Password
+-Required
+-Censored
+-Max 50 characters, Min 8 characters
+-Must have 1 uppercase, 1 lowercase, 1 digit, and 1 special character
+Repeat Password
+-Matches password
+First Name
+-Required
+-Max 50 characters
+Last Name
+-Required
+-Max 50 characters
+Address Line 1
+-Required
+-Max 100 characters
+Address Line 2
+-Required
+-Max 100 characters
+City
+-Required
+-Max 50 characters
+State
+-Required
+-Max 52 characters
+Zip Code
+-Required
+-Max 10 characters, Min 5 digits
+-Must be XXXXX or XXXXX-XXXX format
+Phone No
+-Required
+-Max 10 characters
+-Must be XXX-XXX-XXXX format
+Email
+-Required
+-Must be in email format, X@X.X format
+Gender
+-Required
+-Max 50 characters
+Marital Status
+-Required
+-Max 50 characters
+Date of Birth
+-Required
+-Must be MM/dd/yyyy format
+
+When invalid data is submitted, return to registration page with validation messages aside the fields.
+When registering with successful PHP validation, directs to a confirmation page with all submitted data.
