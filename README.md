@@ -1,1 +1,3 @@
-# CS3030-Web-Programming
+# CS3010-Web-Programming
+
+Fall 2018 Semester
