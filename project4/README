@@ -1,0 +1,10 @@
+CS3010 Web Programming
+Fall 2018
+
+Project 4: Build off Project 3 and Implement MySQL Database
+
+Put back client side JavaScript validation that was originally from Project 2.
+After receiving user input in a field and hovering off the field, the JavaScript will validate and insert a label for "Valid" or "Invalid".
+After submitting the form, data will be validated using MySQL. 
+INSERT record into "registration" table of MySQL server. After, user will be directed to confirmation page.
+When loading confirmation page, SELECT record from "registration" table and display to confirmation page.
