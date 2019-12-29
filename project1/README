@@ -1,3 +1,28 @@
 CS 3010 Web Programming
 Fall 2018
 
+Project 1: Home Page with links to Registration Page and Animations Page
+
+The menu contains three links for home, registration, and animations.
+The home page contains image/logo for my website and description of website.
+The footer contains 3 columns of related links that will open to a new tab.
+The registration page will have a registration form with the fields:
+-Username
+-Password
+-Repeat Password
+-First Name
+-Last Name
+-Address Line 1
+-Address Line 2
+-City
+-State
+-Zip Code
+-Phone No
+-Email
+-Gender
+-Marital Status
+-Date of Birth
+-Submit Button
+-Reset Button
+
+The animations page will demonstrate animations using CSS animations.
